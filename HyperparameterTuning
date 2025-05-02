@@ -1,0 +1,52 @@
+1. What is hyperparameter tuning?
+
+- Hyperparameter tuning is the process of finding the optimal set of hyperparameters for a machine learning model.
+- Hyperparameters are parameters that are not learned during training, but are set before training begins.
+- Tuning aims to improve model performance on unseen data.
+
+2. What is the difference between a hyperparameter and a parameter?
+
+- Parameters are learned during the training process (e.g., weights in a neural network).
+- Hyperparameters are set before training (e.g., learning rate, number of hidden layers).
+
+3. Name three common hyperparameters.
+
+- Learning rate
+- Number of hidden layers (in neural networks)
+- Regularization strength
+
+4. What is a common approach to hyperparameter tuning?
+
+- Grid search: Trying all combinations of hyperparameters within a defined range.
+- Random search: Randomly sampling hyperparameter combinations.
+
+5. Why is hyperparameter tuning important?
+
+- Improves model performance and generalization to unseen data.
+- Prevents overfitting or underfitting.
+
+6. What are the potential drawbacks of hyperparameter tuning?
+
+- Can be computationally expensive, especially with many hyperparameters and large datasets.
+- Requires careful selection of hyperparameter ranges.
+
+7. How does cross-validation help in hyperparameter tuning?
+
+- Cross-validation provides a more robust estimate of model performance on unseen data, helping to choose hyperparameters that generalize well.
+
+8. What is the impact of an improperly tuned learning rate?
+
+- Too high: Model may diverge and fail to converge.
+- Too low: Training may be very slow and not reach optimal performance.
+
+9. Explain the concept of a validation set in hyperparameter tuning.
+
+- A validation set is a subset of the training data used to evaluate the model during hyperparameter tuning. It helps prevent overfitting to the training data.
+
+10. What is the role of a test set in hyperparameter tuning?
+
+- The test set is used for final evaluation of the model after hyperparameter tuning. It is crucial to avoid using the test set during the tuning process to prevent overfitting to the test data itself.
+
+11. Can you describe a scenario where hyperparameter tuning is particularly crucial?
+
+- When building a complex model, like a deep neural network, with many hyperparameters influencing performance significantly.  A well-tuned model will perform much better than a poorly tuned one in this case.
